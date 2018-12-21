@@ -42,6 +42,7 @@ fi
 if [[ $opt == "3" ]]; then
 echo "Ex: https://pastebin.com/WXRPkwic";	
 read -p "Your Script : " sc;
+chmod +x module/jso.sh
 ./module/jso.sh $sc
 fi 
 }
