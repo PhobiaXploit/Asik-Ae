@@ -14,7 +14,6 @@ function upload($data,$filename)
 curl_setopt($ch, CURLOPT_URL,"https://pastebin.com/post.php");
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_PROXY, "159.65.133.43:8080");
 curl_setopt($ch, CURLOPT_HEADER, TRUE);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, FALSE);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array("content-type: application/x-www-form-urlencoded"));
